@@ -33,6 +33,15 @@
       config and GitHub sign-in (through the shared lilAgents auth broker) come
       from /admin/config.yml.
     -->
-    <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+    <!--
+      Pinned on purpose. Unpinned, this URL always served whatever Sveltia
+      shipped last, so an upstream change could reach every deployed lilHub with
+      no commit on our side. That is exactly how the admin icons broke: Sveltia
+      moved its typefaces to Fontsource on jsdelivr, our CSP did not allow that
+      origin, and every site lost its icons at once. Pinning makes an upgrade
+      something we choose. Bump the version deliberately, load /admin, and
+      confirm the icons and fonts still render before shipping the bump.
+    -->
+    <script src="https://unpkg.com/@sveltia/cms@0.174.0/dist/sveltia-cms.js"></script>
   </body>
 </html>
