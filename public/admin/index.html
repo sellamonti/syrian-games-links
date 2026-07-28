@@ -9,10 +9,18 @@
       talks to the GitHub API and the shared lilAgents auth broker, so those
       origins are allowlisted here. Uploaded media and avatars can be any https
       image.
+
+      font-src must include cdn.jsdelivr.net. Sveltia ships its typefaces through
+      Fontsource on jsdelivr, not Google Fonts, and one of them is Material
+      Symbols Outlined, the icon font for the entire admin UI. Block jsdelivr and
+      every icon in the CMS disappears while the app itself still loads and
+      reports no errors, which makes it look like the admin is broken rather than
+      blocked. fonts.gstatic.com stays allowed in case a future release moves
+      back to Google Fonts.
     -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self' https://unpkg.com https://api.github.com https://auth.lilhub.me https://lilhub-auth.lilagents.workers.dev; frame-src https://auth.lilhub.me https://lilhub-auth.lilagents.workers.dev;"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com; style-src 'self' 'unsafe-inline' https://unpkg.com https://fonts.googleapis.com; font-src 'self' https://cdn.jsdelivr.net https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; connect-src 'self' https://unpkg.com https://cdn.jsdelivr.net https://api.github.com https://auth.lilhub.me https://lilhub-auth.lilagents.workers.dev; frame-src https://auth.lilhub.me https://lilhub-auth.lilagents.workers.dev;"
     />
     <title>Content Manager</title>
   </head>
