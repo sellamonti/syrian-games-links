@@ -13,6 +13,9 @@ const site = process.env.URL || "https://example.netlify.app";
 
 export default defineConfig({
   site,
+  // Unique dev port for this project so its dev server can never be confused
+  // with another project's (everything defaults to 4321 otherwise).
+  server: { port: 4330 },
   integrations: [
     // Sitemap for the linktree. Filter out the admin shell so only the public
     // page is advertised.
