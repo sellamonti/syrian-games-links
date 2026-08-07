@@ -5,7 +5,7 @@
   "private": true,
   "description": "Your own lilHub: a static Astro linktree you own, edited with Sveltia CMS. Deploy your own copy in a click.",
   "scripts": {
-    "dev": "astro dev --force",
+    "dev": "astro dev",
     "start": "astro dev",
     "build": "node scripts/set-cms-repo.mjs && astro build",
     "preview": "astro preview"
