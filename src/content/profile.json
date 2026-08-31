@@ -2,7 +2,7 @@
   "name": "سيريان جيمز Syrian Games",
   "description": "من خلال هذه الصفحة يمكنك الوصول الى جميع مواقع وحسابات سيريان جميز عبر الأنترنت\n\n[](https://www.syrian-games.sy/topics/4608)",
   "avatar": "/uploads/facebook logo website (2).png",
-  "showAttribution": true,
+  "showAttribution": false,
   "theme": {
     "primary": "#ffad35",
     "secondary": "#4F46E5",
