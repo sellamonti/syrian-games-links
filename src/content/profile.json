@@ -1,38 +1,20 @@
 {
-  "name": "Your Name",
-  "description": "Add a short bio here, then swap these starter links for your own.",
-  "avatar": "/uploads/avatar-placeholder.svg",
+  "name": "سيريان جيمز Syrian Games",
+  "description": "من خلال هذه الصفحة يمكنك الوصول الى جميع مواقع وحسابات سيريان جميز عبر الأنترنت\n\n[](https://www.syrian-games.sy/topics/4608)",
+  "avatar": "/uploads/facebook logo website (2).png",
   "showAttribution": true,
   "theme": {
-    "primary": "#6366F1",
+    "primary": "#ffad35",
     "secondary": "#4F46E5",
     "background": "#FFFFFF",
     "text": "#1F2937"
   },
   "links": [
     {
-      "title": "My Website",
-      "subtitle": "yourdomain.com",
-      "url": "https://example.com",
-      "icon": "globe"
-    },
-    {
-      "title": "Instagram",
-      "subtitle": "@yourhandle",
-      "url": "https://instagram.com/yourhandle",
-      "icon": "instagram"
-    },
-    {
-      "title": "YouTube",
-      "subtitle": "Your channel",
-      "url": "https://youtube.com/@yourhandle",
-      "icon": "youtube"
-    },
-    {
-      "title": "Email me",
-      "subtitle": "you@yourdomain.com",
-      "url": "mailto:you@yourdomain.com",
-      "icon": "mail"
+      "title": "d",
+      "subtitle": "",
+      "url": "d",
+      "icon": "amazon"
     }
   ],
   "metaTitle": "",
