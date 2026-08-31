@@ -11,13 +11,25 @@
   },
   "links": [
     {
-      "title": "sssss",
+      "title": "حساب سيريان جيمز في فيسبوك",
       "subtitle": "",
-      "url": "d",
-      "icon": "amazon"
+      "url": "https://www.facebook.com/SyrianGamesPage/",
+      "icon": "facebook"
+    },
+    {
+      "title": "حساب سيريان جيمز في انستغرام",
+      "subtitle": "",
+      "url": "https://www.instagram.com/syriangames.sy/",
+      "icon": "instagram"
+    },
+    {
+      "title": "البريد الالكتروني للدعم واستفسارات",
+      "subtitle": "",
+      "url": "mailto:support@syrian-games.sy",
+      "icon": "mail"
     }
   ],
-  "metaTitle": "server",
+  "metaTitle": "Syrian Games سيريان جيمز",
   "metaDescription": "",
   "verified": {
     "provider": "realhandles",
