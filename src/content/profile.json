@@ -17,6 +17,12 @@
       "icon": "amazon"
     }
   ],
-  "metaTitle": "",
-  "metaDescription": ""
+  "metaTitle": "server",
+  "metaDescription": "",
+  "verified": {
+    "provider": "realhandles",
+    "handle": "",
+    "url": "",
+    "label": ""
+  }
 }
